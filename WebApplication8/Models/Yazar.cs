@@ -7,5 +7,6 @@ namespace WebApplication8.Models
 {
     public class Yazar
     {
+        public int YazarId { get; set}
     }
 }
