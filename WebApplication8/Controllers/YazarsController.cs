@@ -46,7 +46,7 @@ namespace WebApplication8.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "YazarId,YazarAdiSoyadi,YazarDogumTarihi")] Yazar yazar)
+        public ActionResult Create([Bind(Include = "YazarId,YazarAdiSoyadi,YazarDogumTarihi,YazarEmailAdresi")] Yazar yazar)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace WebApplication8.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "YazarId,YazarAdiSoyadi,YazarDogumTarihi")] Yazar yazar)
+        public ActionResult Edit([Bind(Include = "YazarId,YazarAdiSoyadi,YazarDogumTarihi,YazarEmailAdresi")] Yazar yazar)
         {
             if (ModelState.IsValid)
             {

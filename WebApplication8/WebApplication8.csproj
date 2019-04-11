@@ -124,6 +124,23 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904110655573_InitialCreate.cs" />
+    <Compile Include="Migrations\201904110655573_InitialCreate.Designer.cs">
+      <DependentUpon>201904110655573_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904110735439_Ilk.cs" />
+    <Compile Include="Migrations\201904110735439_Ilk.Designer.cs">
+      <DependentUpon>201904110735439_Ilk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904110754395_Ilkl.cs" />
+    <Compile Include="Migrations\201904110754395_Ilkl.Designer.cs">
+      <DependentUpon>201904110754395_Ilkl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904110806168_oo.cs" />
+    <Compile Include="Migrations\201904110806168_oo.Designer.cs">
+      <DependentUpon>201904110806168_oo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Kitap.cs" />
     <Compile Include="Models\KitapTuru.cs" />
     <Compile Include="Models\WebApplication8Context.cs" />
@@ -150,6 +167,20 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201904110655573_InitialCreate.resx">
+      <DependentUpon>201904110655573_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904110735439_Ilk.resx">
+      <DependentUpon>201904110735439_Ilk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904110754395_Ilkl.resx">
+      <DependentUpon>201904110754395_Ilkl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904110806168_oo.resx">
+      <DependentUpon>201904110806168_oo.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
