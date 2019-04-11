@@ -13,7 +13,6 @@ namespace WebApplication8
     {
         protected void Application_Start()
         {
-            Dr
             Database.SetInitializer(new VeritabaniBesle());
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
